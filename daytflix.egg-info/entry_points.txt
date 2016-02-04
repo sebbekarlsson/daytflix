@@ -1,0 +1,3 @@
+[console_scripts]
+daytflix = daytflix.entry_points:search
+
