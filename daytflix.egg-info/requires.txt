@@ -1,0 +1,3 @@
+pyfakefs
+requests
+beautifulsoup4

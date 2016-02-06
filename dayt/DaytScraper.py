@@ -46,7 +46,6 @@ class DaytScraper(object):
                 'mirrors': self.scrape_mirrors(video_url['url'])
             })
 
-        
         return videos
 
     def scrape_searchid(self, html):
@@ -77,4 +76,3 @@ class DaytScraper(object):
         mirror_3 = soup.find('a', id='dm3')['href']
 
         return mirror_1, mirror_2, mirror_3
-

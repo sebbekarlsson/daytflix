@@ -13,5 +13,4 @@ class DaytFlix(object):
         videos = self.daytScraper.search(query, page, limit)
 
         for video in videos:
-            uuu  = self.cloudmailScraper.scrape_video_url(video['mirrors'][2])
-            
+            print(video)
